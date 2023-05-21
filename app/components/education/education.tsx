@@ -44,7 +44,7 @@ const Education = () =>{
 
     <Flex mt={12} gap={12} flexWrap="wrap" justifyContent="center">
     {data.map((item:any,index:number)=>{
-      return  <Box key={index} w={{base:"100%", md:"calc(100%/3)"}} border="1px" p={{base:0,md:"20px"}} borderRadius="10px"
+      return  <Box key={index} w={{base:"100%", md:"calc(100%/3)"}} border="1px" p={{base:"10px",md:"20px"}} borderRadius="10px"
       borderColor="rgba(var(--callout-border-rgb), 0.3)">
       <Text fontSize={20}>{item.title}:</Text>
       <Text mt="16px">{item.institute}</Text>

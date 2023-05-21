@@ -8,6 +8,8 @@ import {DiFirebase, DiJavascript, DiNodejsSmall, DiPython, DiReact} from "react-
 import {TbBrandTypescript} from "react-icons/tb"
 import Projects from "./components/projects/projects"
 import Education from "./components/education/education"
+import Skills from "./components/skills/skills"
+import Links from "./components/links/links"
 const emailToast = 'emailToast'
 
 const Home = () => {
@@ -118,26 +120,10 @@ const Home = () => {
 
       <Education/>
 
-      <Box id="skills" className={styles.main}>
-        <div className={styles.description}>
-        <Flex justifyContent="space-between" width="100%">
-        <Text>Skills</Text>
-        <Flex gap={8}>
-        <Text as="a" href="#home" cursor="pointer">Top</Text>
-        <Text as="a" href="#links" cursor="pointer">Next</Text>
-        </Flex>
-        </Flex>
-        </div>
-      </Box>
+      <Skills />
 
-      <Box id="links" className={styles.main}>
-        <div className={styles.description}>
-        <Flex justifyContent="space-between" width="100%">
-        <Text>Links</Text>
-        <Text as="a" href="#home" cursor="pointer">Top</Text>
-        </Flex>
-        </div>
-      </Box>
+      <Links />
+
     </main>
   )
 }
