@@ -22,6 +22,16 @@ const data = [
     description: "Ecommerce app designed to deliver content based on filter method used by SBP website and provide recommendation logic",
     skills: ["React Native for Mobile app", "AWS Amplify", "AWS Graph QL", "AWS Dynamo DB"]
   },
+  {
+    title: "Stader ETH, Polygon, Near",
+    description: "A web3-based web application designed to execute smart contracts on the Ethereum/Polygon/Near blockchain, utilizing web3 wallets and Ledger devices.",
+    skills:  ["Next JS", "TypeScript", "AWS", "NodeJS"]
+  },
+  {
+    title: "Decentralized, encrypted search engine",
+    description: "A web3-based web application utilizing AES encryption and decryption methods to perform searches on a decentralized Elasticsearch engine.",
+    skills: ["Next JS", "TypeScript", "AWS", "NodeJS"]
+  },
 ]
 
 const Projects = () => {
